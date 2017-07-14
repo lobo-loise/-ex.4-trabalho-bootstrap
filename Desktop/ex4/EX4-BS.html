@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>lomo.</title>
+    <link rel="stylesheet" type="text/css" href="tema-EX4bs.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="container vs container-fluid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="fisheye"> <!--scrollspy-->
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <div class="fisheye">
+        <div class="navbar-header"> <!---navbar-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">.::navbar::.</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu"> <!------------------dropdown-->
+                <li><a href="#fisheye">fisheye</a></li> 
+                <li><a href="#">acao2</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">acao3</a></li>
+              </ul>
+          </li>
+        </ul>
+        <ul class="nav nav-tabs"> <!---------------------nav-->
+            <li role="presentation" class="active">
+                <a href="#">
+                    <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> <!---glyphicons-->
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li role="presentation">
+                <a href="#">
+                    <span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+                </a>
+            </li>
+        </ul>
+     </nav>
+     </div> 
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+
+                <!--- carrosel ---------------->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="foto-cam2.jpg" alt="...">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="foto-cam5.jpg" alt="...">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="foto-cam4.jpg" alt="...">
+                            <div class="carousel-caption">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!--fim do carrossel-->
+            <br>
+            <div class="row"> <!------------row-->
+              <div class="col-lg-6">
+                <div class="thumbnail"> <!---thumbnail-->
+                    <img src="holga_px.jpg" alt="...">
+                      <div class="caption">
+                      </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <h3> Donec</h3>
+                <br>
+                <p>
+                  Fusce quis diam efficitur, sagittis metus quis, eleifend risus.
+                  Fusce mollis, magna at suscipit volutpat, leo mauris iaculis erat, nec luctus risus orci quis neque.
+                  Praesent at nisl non nunc porta maximus. Donec porta non nulla ac porttitor.
+                   Quisque egestas lacus ut risus volutpat placerat. Curabitur nisl mauris, elementum ut convallis ut,
+                   feugiat egestas erat.
+                   Quisque et euismod lorem. Suspendisse feugiat pellentesque velit, quis commodo mauris maximus volutpat.
+                </p>
+                <p>
+                  Nullam congue a eros non imperdiet. Praesent mollis dolor sit amet nunc rutrum, sed molestie mi ultricies.
+                  Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                  Vestibulum ex nulla, lobortis in felis sit amet, ornare viverra nisl.
+                  Phasellus tempor luctus purus, ac eleifend leo eleifend pellentesque.
+                  Duis accumsan lectus vitae metus rhoncus, eget egestas eros iaculis.
+                  Suspendisse tellus massa, congue eleifend ante ac, laoreet sagittis nunc.
+                </p>
+                <p>
+                  Suspendisse quis lectus tempus, commodo ante vel, luctus nisi. Ut sem libero,
+                  euismod ut urna sit amet, pretium placerat risus. Etiam condimentum libero sem,
+                  nec iaculis sapien mollis sit amet. Donec pharetra lacus sit amet ipsum egestas,
+                  et ultricies neque tristique. Proin pretium molestie rutrum.
+                </p>
+              </div>
+            </div>  <!--row---------------------->
+
+            
+
+            <div class="row"> <!--novo_row-->
+              <div class="col-lg-6" id="fisheye">
+                <ul class="nav nav-tabs" role="tablist">
+                <h3> Fisheye. </h3>
+                <br>
+                <p>
+                  Fusce metus nulla, ultrices a euismod et, pharetra nec eros.
+                  Aenean lacinia ipsum lectus, non ultrices velit volutpat eu.
+                  Duis feugiat erat eu placerat tempor. Suspendisse vel nisl arcu.
+                  Cras pharetra mauris sed felis fermentum, in laoreet justo sodales.
+                  Ut facilisis porttitor laoreet. Praesent faucibus ante id eros tristique eleifend.
+                </p>
+                </ul>
+
+              </div>
+              <div class="col-lg-6">
+                <div class="thumbnail"> <!---thumbnail-->
+                    <img src="fisheye.jpg" alt="...">
+                      <div class="caption">
+                      </div>
+                </div>
+              </div>
+
+            </div> <!--fim_do_row------------>
+      </section>
+      <footer>
+        <li>
+          <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="right" data-content="......   ....... .....">
+            .:popover:.
+          </button>
+        </li>
+        <br>
+
+      
+        <li>
+            <button type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-sm">...::modal::..</button>
+              <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                      <br>
+                      <p>  ______________ </p>
+                      <p>  ______________ </p>
+      
+                  </div>
+                </div>
+              </div>
+          </li>  
+          </div> <!--pagination-->    
+          <li>
+              <nav aria-label="Page navigation" >
+                  <ul class="pagination navbar-center">
+                      <li>
+                          <a href="#" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                          </a>
+                      </li>
+                      <li><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li>
+                          <a href="#" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                          </a>
+                      </li>
+
+             </nav>
+         </li> <!--fim_pagination------------------>
+         </ul>
+        
+
+      </footer>
+
+      <script type="text/javascript">
+        $('body').scrollspy({ target: 'fisheye' });
+
+        $(function () {
+        $('[data-toggle="popover"]').popover()
+        }) 
+        
+
+
+
+      </script>
+
+
+  </body>
+</html>
+
+
